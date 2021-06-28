@@ -1,0 +1,40 @@
+img {
+    width:480px;
+    height: 480px;
+}
+.contact    {
+    display: flex;
+    background-color: #f8f8f8;
+    justify-content: center;
+    width: 1110px;
+    margin: auto;
+    /*align-items: center;*/
+}
+.contact p  {
+    color: #616d73;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+.contact-btn {
+    background-color: #36db62;
+    color: white;
+    width: 180px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 25px;
+    font-size: 14px;
+}
+article {
+    margin-left: 40px;
+    padding-right: 65px;
+    margin-top: 70px;
+}
+/*Mobile view*/
+@media screen and (max-width:400px) {
+    .contact    {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+}
